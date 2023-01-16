@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Rozha+One&display=swap');
+        /* font-family: 'Bodoni Moda', serif;*/
+        .wrapper{
+            background: url('./assets/images/Doctors-bg.png') no-repeat ;
+            background-size: cover;
+            height: 100vh;
+            padding: 3em;
+        }
+
+        .wrapper h1{
+            background: #66C0E7;
+            color: white;
+            width: 20%;
+            padding: 1em 3em;
+            margin: 1em 0;
+            text-align: center;
+        }
+
+        form{
+            width: 34%;
+        }
+        label{
+            width: 100%;
+            font-family: 'Bodoni Moda', serif;
+            font-size: 1.25em;
+        }
+        input{
+            width: 100%;
+            background: #6B6B6B36;
+            border: 0;
+            height: 3em;
+            margin-bottom: 1.5em;
+            padding: 0 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <a href="./index.html"><img src="./assets/images/logo.png" alt="Roots"></a>
+        <h1>Book Appointment</h1>
+        <form action="post">
+            <label for="name">Name*</label>
+            <input type="text" id="name">
+
+            <label for="number">Number*</label>
+            <input type="tel" id="number">
+
+            <label for="date">Visit Date</label>
+            <input type="date" id="date">
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email">
+
+        </form>
+
+    </div>
+</body>
+</html>
